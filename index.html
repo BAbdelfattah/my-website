@@ -73,53 +73,16 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
 </head>
 
-.news-bar-container {
-    overflow: hidden;
-    background-color: #f9f9f9;
-    padding: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    position: relative;
-    width: 100%;
-}
-
-.news-bar {
-    display: inline-block;
-    white-space: nowrap;
-    animation: scroll-left-to-right 15s linear infinite;
-}
-
-.news-bar ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.news-bar ul li {
-    display: inline;
-    margin-right: 30px;
-}
-
-.news-bar ul li a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.news-bar ul li a:hover {
-    text-decoration: underline;
-}
-
-@keyframes scroll-left-to-right {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
+<div class="news-bar-container">
+    <div class="news-bar">
+        <ul>
+            <li><a href="article1.html">New Guidelines on Food Storage Released - June 29, 2024</a></li>
+            <li><a href="webinar.html">Upcoming Webinar: Best Practices in Food Safety - July 10, 2024</a></li>
+            <li><a href="recall.html">Recent Food Recall: Frozen Vegetables - June 28, 2024</a></li>
+            <li><a href="tips.html">Quick Tips for Safe Thawing Practices - June 25, 2024</a></li>
+        </ul>
+    </div>
+</div>
 
 
 <div class="calculator-container">
