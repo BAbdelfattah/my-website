@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    animation: scroll 15s linear infinite;
+    animation: scroll 45s linear infinite;
 }
 
 .news-bar ul li {
