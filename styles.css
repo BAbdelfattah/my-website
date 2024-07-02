@@ -1,39 +1,95 @@
-/* Additions for interactive elements */
-.news-bar-container {
-    background-color: #f0f0f0;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease-out;
-}
-
-.news-bar-container.active {
-    max-height: 100px; /* Adjust as needed */
-}
-
-.news-bar {
-    overflow: hidden;
-}
-
-.news-bar ul {
-    list-style-type: none;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.news-bar ul li {
-    margin-bottom: 0.5rem;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.calculator-container {
-    margin-top: 2rem;
-    background-color: #f0f0f0;
-    padding: 1rem;
-    border-radius: 8px;
-    transition: transform 0.3s ease-out;
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
 }
 
-.calculator-container:hover {
-    transform: scale(1.05);
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #0779e4;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+.featured-article {
+    background: #e4e4e4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.featured-article h2 {
+    margin-top: 0;
+}
+
+.latest-articles article {
+    background: #e4e4e4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.latest-articles h2 {
+    margin-top: 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
