@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: green;
-    color: white;
+    background-color: green; /*نص باللون الأبيض*/
+    color: white; /*خلفية باللون الأخضر*/
 }
 
 .container {
