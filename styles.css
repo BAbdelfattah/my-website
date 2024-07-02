@@ -1,9 +1,11 @@
+/* تنسيقات أساسية للموقع */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: green; /*نص باللون الأبيض*/
-    color: white; /*خلفية باللون الأخضر*/
+    color: #008000; /* لون النص باللون الأخضر */
+    background-color: #ffffff; /* لون الخلفية باللون الأبيض */
 }
 
 .container {
@@ -13,15 +15,15 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #008000; /* خلفية العنوان باللون الأخضر */
+    color: #ffffff; /* لون النص باللون الأبيض */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #0779e4 3px solid;
+    border-bottom: #ffffff 3px solid;
 }
 
 header a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -33,62 +35,31 @@ header ul {
 }
 
 header li {
-    float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
 
-header #branding {
+header h1 {
     float: left;
 }
 
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
+nav {
     float: right;
     margin-top: 10px;
 }
 
-header .highlight, header .current a {
-    color: #0779e4;
-    font-weight: bold;
+.section {
+    padding: 20px 0;
+    border-bottom: #008000 1px solid;
 }
 
-header a:hover {
-    color: #cccccc;
-    font-weight: bold;
-}
-
-main {
-    padding: 20px;
-    background: #fff;
-}
-
-.featured-article {
-    background: #e4e4e4;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.featured-article h2 {
-    margin-top: 0;
-}
-
-.latest-articles article {
-    background: #e4e4e4;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.latest-articles h2 {
-    margin-top: 0;
+.section h2 {
+    color: #008000; /* لون عناوين الأقسام باللون الأخضر */
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #008000; /* خلفية التذييل باللون الأخضر */
+    color: #ffffff; /* لون النص باللون الأبيض */
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
